@@ -29,6 +29,8 @@ public class TIABFabric implements ModInitializer {
             return (Optional) TiabProvider.TIAB.maybeGet(Player);
         });
 
+        TIAB.initRegistries();
+
         ServerTickEvents.START_SERVER_TICK.register((server -> {
             server.getPlayerList().getPlayers().forEach(player -> {
                 TiabProvider.TIAB.maybeGet(player).ifPresent(fabricTiab -> fabricTiab.tick(player));

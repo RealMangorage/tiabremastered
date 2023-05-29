@@ -18,7 +18,9 @@ public class TIAB {
             INSTANCE = new TIAB(platform, ITIABGetter);
         else
             throw new IllegalStateException("Already initiated TIAB");
+    }
 
+    public static void initRegistries() {
         ModItems.init();
     }
 

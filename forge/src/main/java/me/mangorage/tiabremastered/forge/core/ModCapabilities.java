@@ -1,4 +1,4 @@
-package me.mangorage.tiabremastered.forge.capabilities;
+package me.mangorage.tiabremastered.forge.core;
 
 import me.mangorage.tiabremastered.common.core.tiab.ITIAB;
 import net.minecraftforge.common.capabilities.Capability;

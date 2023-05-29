@@ -1,6 +1,7 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2023-05-29 04:03:42 -0700",
       "minecraft:river": "2023-05-28 23:54:16 -0700",
       "minecraft:forest": "2023-05-29 01:46:21 -0700",
       "minecraft:plains": "2023-05-28 23:56:05 -0700"

@@ -1,4 +1,4 @@
-package me.mangorage.tiabremastered.forge.capabilities;
+package me.mangorage.tiabremastered.forge.core;
 
 import me.mangorage.tiabremastered.common.core.tiab.BasicTiab;
 import me.mangorage.tiabremastered.common.core.tiab.ITIAB;
@@ -10,7 +10,7 @@ import net.minecraftforge.common.util.LazyOptional;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class ITiabProvider implements ICapabilitySerializable<CompoundTag> {
+public class TiabProvider implements ICapabilitySerializable<CompoundTag> {
     private final BasicTiab CAP = new BasicTiab();
     private final LazyOptional<ITIAB> lazy = LazyOptional.of(() -> CAP);
 

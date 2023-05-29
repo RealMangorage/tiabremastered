@@ -1,20 +1,51 @@
 [Architectury Transformer] Architectury Runtime 5.2.75
 [Architectury Transformer DEBUG] Closed File Systems for F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Provided 152 classpath jar(s):
+[Architectury Transformer DEBUG] Provided 139 classpath jar(s):
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\fabric-loom\1.19.2\forge\1.19.2-43.2.11\forge-client-extra.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.14.21\960c8a415d93c128bfb630abbc3c7c9e1ba48637\fabric-loader-0.14.21.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.fabricmc\tiny-mappings-parser\0.3.0+build.17\2f10540a290e382a7cd35c16ec3900046a4e252\tiny-mappings-parser-0.3.0+build.17.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.12.5+mixin.0.8.5\8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e\sponge-mixin-0.12.5+mixin.0.8.5.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.fabricmc\tiny-remapper\0.8.2\2cc6565989469ec38893bfb7802b31c0d0d11ea0\tiny-remapper-0.8.2.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.fabricmc\access-widener\2.1.0\f62a27adbfd8ab4d4fa5681793039f2c0b177155\access-widener-2.1.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\225fcd15cbac7b75bd7a554fe6bbbedf\transformed\alfd-transformed\javafmllanguage-1.19.2-43.2.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\05070c41d48646d635220c8fb5010d5e\transformed\alfd-transformed\lowcodelanguage-1.19.2-43.2.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\47ee69dcb314a2feb20e0d0dfa5b8595\transformed\alfd-transformed\mclanguage-1.19.2-43.2.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\085f735b2b7bef1ae897e68cca32bf2d\transformed\alfd-transformed\fmlcore-1.19.2-43.2.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\debb3737e961c4f1e7c81802d261fcef\transformed\alfd-transformed\fmlloader-1.19.2-43.2.11.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\a7811a1dc1a4f2698a5c8bec3b24b860\transformed\alfd-transformed\JarJarSelector-0.3.16.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\b39d1038ea2d046a20c4eab8acbfdd5b\transformed\alfd-transformed\JarJarMetadata-0.3.16.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.16.7\ee4095669061d1fe4bce5fea23d69d1520bc2d58\text2speech-1.16.7.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\5.0.28\e2157e236e529aff80a5fc3ccb506e56d46b130b\datafixerupper-5.0.28.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\3.11.49\2e3055ec2a017c7f94b79744b4a68b65695a118c\authlib-3.11.49.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.0.1-jre\119ea2b2bc205b138974d351777b20f02b92704b\guava-31.0.1-jre.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\b1bbca95944ab8208cde92893d17eda0\transformed\alfd-transformed\coremods-5.0.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\b4d7efb2594ac021d96d0c3a9d303c5c\transformed\alfd-transformed\forgespi-6.0.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\d337941b9da24f2427f3bfe3a015e966\transformed\alfd-transformed\accesstransformers-8.0.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\5aff7ea40195567b586b084357cee297\transformed\alfd-transformed\eventbus-6.0.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\e90fb7e70db12bae0be98675a81002f1\transformed\alfd-transformed\modlauncher-10.0.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\75bf50c2e160472ec61a5a4db264a494\transformed\alfd-transformed\bootstraplauncher-1.1.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\3971e2b5b9df7c07003603f83c7983e3\transformed\alfd-transformed\securejarhandler-2.1.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\a41c68f02b1ecfe85785d4a5deab83fc\transformed\alfd-transformed\nashorn-core-15.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\934bf8ab3a9d984451dce4b98da65760\transformed\alfd-transformed\asm-commons-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\6223b50f97158eda97d6afc0e1918a0a\transformed\alfd-transformed\asm-util-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\d748c1e599ad619e76a331778dcfd37a\transformed\alfd-transformed\asm-analysis-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\91ecd2a8b10cea2b7dd7322adaf9f46d\transformed\alfd-transformed\asm-tree-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\8a1bb3f0e6627e7c7982124d21e73e0a\transformed\alfd-transformed\asm-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\f2234daa534489cfff5bdb985cbfb1e8\transformed\alfd-transformed\antlr4-runtime-4.9.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\04f71f5a9ffcf769c29b310d28443060\transformed\alfd-transformed\unsafe-0.2.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\e083c455d96015e10f6c92fa8dbf1c6a\transformed\alfd-transformed\toml-3.6.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\1030bbf61af230bdcc62642449d75816\transformed\alfd-transformed\core-3.6.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\48ca9c937bb3654839cac5a6c320fe2e\transformed\alfd-transformed\maven-artifact-3.8.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\1f8430da1e2cf12920efcba55b3349e8\transformed\alfd-transformed\typetools-0.8.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\fc7a74df764a692c8cbcedb678030022\transformed\alfd-transformed\terminalconsoleappender-1.2.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\0c4e7734b5b5c4d3ee92958e9ba467f2\transformed\alfd-transformed\jline-reader-3.12.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\ee47238a010c9eb5af288efac2d3305f\transformed\alfd-transformed\jline-terminal-3.12.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\bbbb8d3306da53c0ba4b7066c6d240c5\transformed\alfd-transformed\mixin-patched-0.8.5.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\transforms-3\7ada13a3157c6964d52d21c4be379dc8\transformed\alfd-transformed\JarJarFileSystems-0.3.16.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-loom-runtime\1.1.3\5ca1d9609c1bdd10a3162a9e2d211a95ca79740e\architectury-loom-runtime-1.1.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\io.github.juuxel\unprotect\1.2.0\49cc229a0469f28fae41593a9537743ac6a951dc\unprotect-1.2.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\70.1\dfa3a1fbc55bf5db8c6e79fc0935ac7ab1202950\icu4j-70.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
@@ -71,16 +102,15 @@
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\fc6bb723dec2cd031557dccb2a95f0ab80acb9db\lwjgl-3.3.1-natives-macos.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\71d0d5e469c9c95351eb949064497e3391616ac9\lwjgl-3.3.1-natives-macos-arm64.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.16.7\ee4095669061d1fe4bce5fea23d69d1520bc2d58\text2speech-1.16.7.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\1.19.2\loom.mappings.1_19_2.layered+hash.40359-v2\minecraft-project-@fabric-merged-named.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\fabric-loom\1.19.2\loom.mappings.1_19_2.layered+hash.40359-v2\forge-1.19.2-43.2.11-minecraft-merged-named.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.0.0\f6ca3b2eee0b80b384e8ed93d368faecb82dfb9b\logging-1.0.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\5.8.5\1d0ec654d820741327f5a9229d513732a4b7ce50\oshi-core-5.8.5.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.10.0\fbed7d9669dba47714ad0d4f4454290a997aee69\jna-platform-5.10.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.10.0\7cf4c87dd802db50721db66947aa237d7ad09418\jna-5.10.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j18-impl\2.17.0\bd7f6c0b9224dd214afb4e684957e2349b529a8d\log4j-slf4j18-impl-2.17.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\5.0.28\e2157e236e529aff80a5fc3ccb506e56d46b130b\datafixerupper-5.0.28.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\3.11.49\2e3055ec2a017c7f94b79744b4a68b65695a118c\authlib-3.11.49.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-simple\1.7.30\e606eac955f55ecf1d8edcccba04eb8ac98088dd\slf4j-simple-1.7.30.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\javabridge\1.2.24\c876796229b2ef5120f186eab5acc870699d3b9\javabridge-1.2.24.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
@@ -94,151 +124,146 @@
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.77.Final\d97571f99e5e739d86824d0df99f35d295276b5f\netty-buffer-4.1.77.Final.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.77.Final\4a239dbf8d8bb5f98aa51462c35011c0516395fd\netty-resolver-4.1.77.Final.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.77.Final\ea0fc20f4e6178966b9d62017b7fcb83dfe0e713\netty-common-4.1.77.Final.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.0.1-jre\119ea2b2bc205b138974d351777b20f02b92704b\guava-31.0.1-jre.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.0.18\c1ef1234282716483c92183f49bef47b1a89bfa9\brigadier-1.0.18.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.9\8a432c1d6825781e21a02db2e2c33c5fde2833b9\gson-2.8.9.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.6\76f95700418a68fbc4ac050525261f05dc681ca1\fastutil-8.5.6.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.17.0\fe6e7a32c1228884b9691a744f953a55d0dd8ead\log4j-core-2.17.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.17.0\bbd791e9c8c9421e45337c4fe0a10851c086e36c\log4j-api-2.17.0.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-api\0.76.0+1.19.2\fabric-api-0.76.0+1.19.2.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-transfer-api-v1\2.1.6+413cbbc790\fabric-transfer-api-v1-2.1.6+413cbbc790.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-api-lookup-api-v1\1.6.14+93d8cb8290\fabric-api-lookup-api-v1-1.6.14+93d8cb8290.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-blockrenderlayer-v1\1.1.25+cafc6e8e90\fabric-blockrenderlayer-v1-1.1.25+cafc6e8e90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-client-tags-api-v1\1.0.5+b35fea8390\fabric-client-tags-api-v1-1.0.5+b35fea8390.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-command-api-v2\2.2.1+413cbbc790\fabric-command-api-v2-2.2.1+413cbbc790.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-content-registries-v0\3.5.2+7c6cd14d90\fabric-content-registries-v0-3.5.2+7c6cd14d90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-convention-tags-v1\1.3.0+4bc6e26290\fabric-convention-tags-v1-1.3.0+4bc6e26290.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-data-generation-api-v1\5.3.8+413cbbc790\fabric-data-generation-api-v1-5.3.8+413cbbc790.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-dimensions-v1\2.1.35+0d0f210290\fabric-dimensions-v1-2.1.35+0d0f210290.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-entity-events-v1\1.5.4+9244241690\fabric-entity-events-v1-1.5.4+9244241690.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-events-interaction-v0\0.4.34+562bff6e90\fabric-events-interaction-v0-0.4.34+562bff6e90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-gametest-api-v1\1.1.8+4d0d570390\fabric-gametest-api-v1-1.1.8+4d0d570390.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-item-api-v1\1.6.6+b7d1888890\fabric-item-api-v1-1.6.6+b7d1888890.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-item-groups-v0\0.3.39+9244241690\fabric-item-groups-v0-0.3.39+9244241690.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-mining-level-api-v1\2.1.24+33fbc73890\fabric-mining-level-api-v1-2.1.24+33fbc73890.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-lifecycle-events-v1\2.2.4+1b46dc7890\fabric-lifecycle-events-v1-2.2.4+1b46dc7890.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-loot-api-v2\1.1.13+83a8659290\fabric-loot-api-v2-1.1.13+83a8659290.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-message-api-v1\5.0.7+93d8cb8290\fabric-message-api-v1-5.0.7+93d8cb8290.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-models-v0\0.3.21+c6af733c90\fabric-models-v0-0.3.21+c6af733c90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-recipe-api-v1\1.0.1+413cbbc790\fabric-recipe-api-v1-1.0.1+413cbbc790.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-registry-sync-v0\0.9.32+9244241690\fabric-registry-sync-v0-0.9.32+9244241690.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-screen-handler-api-v1\1.3.7+1cc24b1b90\fabric-screen-handler-api-v1-1.3.7+1cc24b1b90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-networking-api-v1\1.2.11+10eb22f490\fabric-networking-api-v1-1.2.11+10eb22f490.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-object-builder-api-v1\4.2.2+d8ef690890\fabric-object-builder-api-v1-4.2.2+d8ef690890.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-particles-v1\1.0.14+4d0d570390\fabric-particles-v1-1.0.14+4d0d570390.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-renderer-indigo\0.8.0+1adbf27790\fabric-renderer-indigo-0.8.0+1adbf27790.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-renderer-api-v1\1.2.1+1adbf27790\fabric-renderer-api-v1-1.2.1+1adbf27790.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-rendering-data-attachment-v1\0.3.19+6e0787e690\fabric-rendering-data-attachment-v1-0.3.19+6e0787e690.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-rendering-fluids-v1\3.0.11+4d0d570390\fabric-rendering-fluids-v1-3.0.11+4d0d570390.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-rendering-v1\1.12.1+d8ef690890\fabric-rendering-v1-1.12.1+d8ef690890.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-screen-api-v1\1.0.32+4d0d570390\fabric-screen-api-v1-1.0.32+4d0d570390.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-textures-v0\1.0.24+aeb40ebe90\fabric-textures-v0-1.0.24+aeb40ebe90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-api-base\0.4.15+8f4e8eb390\fabric-api-base-0.4.15+8f4e8eb390.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-biome-api-v1\9.1.1+16f1e31390\fabric-biome-api-v1-9.1.1+16f1e31390.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-block-api-v1\1.0.2+e415d50e90\fabric-block-api-v1-1.0.2+e415d50e90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-crash-report-info-v1\0.2.8+aeb40ebe90\fabric-crash-report-info-v1-0.2.8+aeb40ebe90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-game-rule-api-v1\1.0.24+b6b6abb490\fabric-game-rule-api-v1-1.0.24+b6b6abb490.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-key-binding-api-v1\1.0.25+5c4fce2890\fabric-key-binding-api-v1-1.0.25+5c4fce2890.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-resource-conditions-api-v1\2.1.2+aae9039d90\fabric-resource-conditions-api-v1-2.1.2+aae9039d90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-resource-loader-v0\0.8.4+edbdcddb90\fabric-resource-loader-v0-0.8.4+edbdcddb90.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.2+c4f28df590\fabric-sound-api-v1-1.0.2+c4f28df590.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\1.3.3+08b73de490\fabric-transitive-access-wideners-v1-1.3.3+08b73de490.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\dev\onyxstudios\cardinal-components-api\cardinal-components-entity\4.1.0\cardinal-components-entity-4.1.0.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\dev\onyxstudios\cardinal-components-api\cardinal-components-base\4.1.0\cardinal-components-base-4.1.0.jar
-[Architectury Transformer DEBUG]  - F:\Minecraft Forge Projects\tiabremastered2\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2\net\fabricmc\fabric-loader\0.14.21\fabric-loader-0.14.21.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.17.1\779f60f3844dadc3ef597976fcb1e5127b1f343d\log4j-core-2.17.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.17.1\d771af8e336e372fb5399c99edabe0919aeaf5b2\log4j-api-2.17.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.7.1\458d9042f7aa6fa9a634df902b37f544e15aacac\error_prone_annotations-2.7.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
-[Architectury Transformer] Read classpath in 1.305 s
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+[Architectury Transformer] Read classpath in 1.342 s
 [Architectury Transformer DEBUG] Closed File Systems for F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\8741020627115290942.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@80169cf
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@5427c60c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@15bfd87
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@543e710e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@57f23557
-[Architectury Transformer DEBUG] Transforming from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\8741020627115290942.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@5e57643e
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\13116222639664765011.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@7bc1a03d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@70b0b186
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@ba8d91c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7364985f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@5d20e46
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@709ba3fb
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@3d36e4cd
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@6a472554
+[Architectury Transformer DEBUG] Transforming from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\13116222639664765011.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@4d49af10
 [Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/TIAB with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/Util with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/ModPlatform with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/Util with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/Constants with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/registries/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/BasicTiab with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/ITIAB with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/items/TimeInABottleItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /tiabremastered-common.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\andre\AppData\Local\Temp\8741020627115290942.jar
+[Architectury Transformer DEBUG] Checking whether /tiabremastered-common.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Found mixin config(s): tiabremastered-common.mixins.json
+[Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, tiabremastered-common.mixins.json]
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\andre\AppData\Local\Temp\13116222639664765011.jar
 [Architectury Transformer] Listening at F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/TIAB.class to me/mangorage/tiabremastered/TIAB.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@d000e2e
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/items/TimeInABottleItem.class to me/mangorage/tiabremastered/common/items/TimeInABottleItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6f5b3a22
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/TIAB with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/TIAB in 143.5 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/ModPlatform.class to me/mangorage/tiabremastered/common/core/ModPlatform.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@1e5ab63d
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/ModPlatform with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/ModPlatform in 168.1 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/registries/ModItems.class to me/mangorage/tiabremastered/common/core/registries/ModItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@66d9ac21
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/registries/ModItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/registries/ModItems in 109.0 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/items/TimeInABottleItem.class to me/mangorage/tiabremastered/common/items/TimeInABottleItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@18da218f
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/items/TimeInABottleItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/items/TimeInABottleItem in 66.34 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/tiab/BasicTiab.class to me/mangorage/tiabremastered/common/core/tiab/BasicTiab.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@49e63880
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/items/TimeInABottleItem in 58.23 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/TIAB.class to me/mangorage/tiabremastered/TIAB.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@37341592
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/BasicTiab with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/tiab/BasicTiab in 71.96 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/tiab/ITIAB.class to me/mangorage/tiabremastered/common/core/tiab/ITIAB.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@74deff50
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/TIAB with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/TIAB in 38.03 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/ModPlatform.class to me/mangorage/tiabremastered/common/core/ModPlatform.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@b043bcb
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/ModPlatform with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/ModPlatform in 41.40 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/tiab/ITIAB.class to me/mangorage/tiabremastered/common/core/tiab/ITIAB.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@24cb530d
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/ITIAB with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/tiab/ITIAB in 53.74 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/Util.class to me/mangorage/tiabremastered/common/core/Util.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$106/0x0000000800c2f000@31cb219a
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/tiab/ITIAB in 27.24 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/registries/ModItems.class to me/mangorage/tiabremastered/common/core/registries/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@591ae3dd
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_fabric_80bd8376fff44741a7dcaa79ca70d246_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/registries/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/registries/ModItems in 31.52 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/tiab/BasicTiab.class to me/mangorage/tiabremastered/common/core/tiab/BasicTiab.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6f5ebaf3
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/BasicTiab with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/tiab/BasicTiab in 49.28 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/Util.class to me/mangorage/tiabremastered/common/core/Util.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@7b591f4
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/Util with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/Util in 56.70 ms
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/Util in 66.57 ms
