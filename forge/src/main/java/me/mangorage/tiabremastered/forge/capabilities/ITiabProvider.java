@@ -25,7 +25,7 @@ public class ITiabProvider implements ICapabilitySerializable<CompoundTag> {
 
     @Override
     public CompoundTag serializeNBT() {
-        return CAP.serialize();
+        return CAP.serialize(new CompoundTag());
     }
 
     @Override

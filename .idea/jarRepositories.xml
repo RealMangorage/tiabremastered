@@ -41,5 +41,10 @@
       <option name="name" value="UserLocalRemappedMods" />
       <option name="url" value="file:/$PROJECT_DIR$/../../Minecraft%20Forge%20Projects/tiabremastered2/.gradle/loom-cache/remapped_mods/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="Ladysnake Mods" />
+      <option name="name" value="Ladysnake Mods" />
+      <option name="url" value="https://ladysnake.jfrog.io/artifactory/mods" />
+    </remote-repository>
   </component>
 </project>

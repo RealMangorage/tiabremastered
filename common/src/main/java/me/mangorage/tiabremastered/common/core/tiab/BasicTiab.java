@@ -51,8 +51,7 @@ public class BasicTiab implements ITIAB {
 
 
     @Override
-    public CompoundTag serialize() {
-        CompoundTag tag = new CompoundTag();
+    public CompoundTag serialize(CompoundTag tag) {
         tag.putInt("time", timeLeft);
         tag.putInt("totaltime", totalAccumulatedTime);
         return tag;

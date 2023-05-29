@@ -1,12 +1,10 @@
 package me.mangorage.tiabremastered.common.items;
 
 import me.mangorage.tiabremastered.TIAB;
-import me.mangorage.tiabremastered.common.core.ModPlatform;
 import me.mangorage.tiabremastered.common.core.Util;
 import me.mangorage.tiabremastered.common.core.tiab.ITIAB;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -31,9 +29,9 @@ public class TimeInABottleItem extends Item {
     @Override
     public void inventoryTick(ItemStack itemStack, Level level, Entity entity, int i, boolean bl) {
         if (level != null && !level.isClientSide && entity instanceof Player player) {
-            Optional<ITIAB> optionalITIAB = TIAB.INSTANCE.getTIAB(player);
+            Optional<ITIAB> optionalITIAB = TIAB.getInstance().getTIAB(player);
             optionalITIAB.ifPresent(itiab -> {
-                itemStack.setTag(itiab.serialize());
+                itemStack.setTag(itiab.serialize(new CompoundTag()));
             });
         }
     }

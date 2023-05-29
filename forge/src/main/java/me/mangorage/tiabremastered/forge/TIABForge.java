@@ -6,12 +6,15 @@ import me.mangorage.tiabremastered.common.core.registries.ModItems;
 import me.mangorage.tiabremastered.common.core.tiab.ITIAB;
 import me.mangorage.tiabremastered.common.core.ModPlatform;
 import me.mangorage.tiabremastered.forge.capabilities.ITiabProvider;
+import me.mangorage.tiabremastered.forge.capabilities.ModCapabilities;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
+import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -29,7 +32,7 @@ import java.util.Optional;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TIABForge {
     public TIABForge() {
-        TIAB.init(ModPlatform.FORGE, Util::getTIAB);
+        TIAB.init(ModPlatform.FORGE, TIABForge::getTIAB);
     }
 
     @SubscribeEvent
@@ -40,5 +43,13 @@ public class TIABForge {
     @SubscribeEvent
     public static void onRegister(RegisterEvent event) {
         event.register(ForgeRegistries.Keys.ITEMS, new ResourceLocation(Constants.MODID, "timeinabottle"), () -> ModItems.TIME_IN_A_BOTTLE_ITEM);
+    }
+
+    public static Optional<ITIAB> getTIAB(Player player) {
+        LazyOptional<ITIAB> lazy = player.getCapability(ModCapabilities.TIAB);
+        if (lazy.isPresent())
+            return lazy.resolve();
+
+        return Optional.empty();
     }
 }

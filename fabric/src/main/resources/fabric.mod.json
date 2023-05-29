@@ -9,7 +9,19 @@
   "license": "MIT",
   "icon": "icon.png",
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "cardinal-components-entity": [
+      "me.mangorage.tiabremastered.fabric.core.TiabProvider"
+    ],
+    "main": [
+      "me.mangorage.tiabremastered.fabric.TIABFabric"
+    ]
+  },
+  "custom": {
+    "cardinal-components": [
+      "tiabremastered:tiab"
+    ]
+  },
   "mixins": [
     "tiabremastered.mixins.json"
   ],

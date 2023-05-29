@@ -12,7 +12,7 @@ public interface ITIAB {
     int removeTime(int amount, boolean simulate);
     void tick(Player player);
 
-    CompoundTag serialize();
+    CompoundTag serialize(CompoundTag tag);
     void deserialize(CompoundTag tag);
 
 }
