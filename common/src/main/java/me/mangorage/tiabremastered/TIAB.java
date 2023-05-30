@@ -1,6 +1,5 @@
 package me.mangorage.tiabremastered;
 
-import me.mangorage.tiabremastered.common.core.registries.ModItems;
 import me.mangorage.tiabremastered.common.core.ModPlatform;
 import me.mangorage.tiabremastered.common.core.tiab.ITIAB;
 import net.minecraft.world.entity.player.Player;
@@ -18,10 +17,6 @@ public class TIAB {
             INSTANCE = new TIAB(platform, ITIABGetter);
         else
             throw new IllegalStateException("Already initiated TIAB");
-    }
-
-    public static void initRegistries() {
-        ModItems.init();
     }
 
     public static TIAB getInstance() {

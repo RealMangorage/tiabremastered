@@ -141,31 +141,37 @@
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\andre\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
-[Architectury Transformer] Read classpath in 1.342 s
+[Architectury Transformer] Read classpath in 1.343 s
 [Architectury Transformer DEBUG] Closed File Systems for F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\13116222639664765011.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@7bc1a03d
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@70b0b186
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@ba8d91c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7364985f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@5d20e46
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@709ba3fb
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@3d36e4cd
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@6a472554
-[Architectury Transformer DEBUG] Transforming from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\13116222639664765011.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\16171602444038548832.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@4450d156
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4461c7e3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@351d0846
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@77e4c80f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@35fc6dc4
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@7fe8ea47
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@226a82c4
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@731f8236
+[Architectury Transformer DEBUG] Transforming from F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar to C:\Users\andre\AppData\Local\Temp\16171602444038548832.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@4d49af10
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@51b7e5df
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/TIAB with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/client/ClientTIAB with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/client/keymapping/ReferenceKeyMapping with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/client/keymapping/KeyMappingFunction with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/client/screens/OverlayConfigScreen with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/ModPlatform with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/Util with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/Constants with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/registries/ReferenceRegistryObject with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/registries/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/TiabCommands with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/BasicTiab with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/ITIAB with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/items/TimeInABottleItem with maxs=true frames=true
@@ -174,25 +180,12 @@
 [Architectury Transformer DEBUG] Found mixin config(s): tiabremastered-common.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, tiabremastered-common.mixins.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\andre\AppData\Local\Temp\13116222639664765011.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\andre\AppData\Local\Temp\16171602444038548832.jar
 [Architectury Transformer] Listening at F:\Minecraft Forge Projects\tiabremastered2\common\build\devlibs\tiabremastered-1.0-dev.jar
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/items/TimeInABottleItem.class to me/mangorage/tiabremastered/common/items/TimeInABottleItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6f5b3a22
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/items/TimeInABottleItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/items/TimeInABottleItem in 58.23 ms
 [Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/TIAB.class to me/mangorage/tiabremastered/TIAB.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@37341592
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@2fea58f2
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -201,11 +194,11 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/TIAB with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/TIAB in 38.03 ms
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/TIAB in 64.22 ms
 [Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/ModPlatform.class to me/mangorage/tiabremastered/common/core/ModPlatform.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@b043bcb
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@4a68ef92
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -214,24 +207,11 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/ModPlatform with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/ModPlatform in 41.40 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/tiab/ITIAB.class to me/mangorage/tiabremastered/common/core/tiab/ITIAB.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@24cb530d
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/ITIAB with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/tiab/ITIAB in 27.24 ms
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/ModPlatform in 36.81 ms
 [Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/registries/ModItems.class to me/mangorage/tiabremastered/common/core/registries/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@591ae3dd
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@7bdfff9a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -240,30 +220,82 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/registries/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/registries/ModItems in 31.52 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/tiab/BasicTiab.class to me/mangorage/tiabremastered/common/core/tiab/BasicTiab.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/registries/ModItems in 46.86 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/items/TimeInABottleItem.class to me/mangorage/tiabremastered/common/items/TimeInABottleItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6f5ebaf3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@1e0aefd4
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/BasicTiab with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/items/TimeInABottleItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/tiab/BasicTiab in 49.28 ms
-[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/Util.class to me/mangorage/tiabremastered/common/core/Util.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/items/TimeInABottleItem in 41.21 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/registries/ReferenceRegistryObject.class to me/mangorage/tiabremastered/common/core/registries/ReferenceRegistryObject.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@7a52f2a2
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@7b591f4
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@15794317
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/Util with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/registries/ReferenceRegistryObject with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/Util in 66.57 ms
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/registries/ReferenceRegistryObject in 30.22 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/common/core/tiab/ITIAB.class to me/mangorage/tiabremastered/common/core/tiab/ITIAB.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@746f2b91
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/common/core/tiab/ITIAB with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/common/core/tiab/ITIAB in 29.64 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/client/ClientTIAB.class to me/mangorage/tiabremastered/client/ClientTIAB.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@67174f09
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/client/ClientTIAB with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/client/ClientTIAB in 27.44 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/client/keymapping/ReferenceKeyMapping.class to me/mangorage/tiabremastered/client/keymapping/ReferenceKeyMapping.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@1931d9f3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/client/keymapping/ReferenceKeyMapping with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/client/keymapping/ReferenceKeyMapping in 30.01 ms
+[Architectury Transformer DEBUG] Transforming from me/mangorage/tiabremastered/client/keymapping/KeyMappingFunction.class to me/mangorage/tiabremastered/client/keymapping/KeyMappingFunction.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$147/0x0000000800c8e198@27c86f2d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6aaa7944
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_tiabremastered2_forge_31a738b57fdd46e299ffebc06e3ccb72_12e5d1faa1f3b6cbd6d8cc6ce2da17357948805363c0c7dc846b5ddedd56cfc4tiabremastered10devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing me/mangorage/tiabremastered/client/keymapping/KeyMappingFunction with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: tiabremastered-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed me/mangorage/tiabremastered/client/keymapping/KeyMappingFunction in 26.46 ms

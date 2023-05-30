@@ -45,7 +45,7 @@ public class BasicTiab implements ITIAB {
 
     @Override
     public void tick(Player player) {
-        if (player.getInventory().countItem(ModItems.TIME_IN_A_BOTTLE_ITEM) > 0)
+        if (player.getInventory().countItem(ModItems.TIME_IN_A_BOTTLE_ITEM.get()) > 0)
             addTime(1);
     }
 
