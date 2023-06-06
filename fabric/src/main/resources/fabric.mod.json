@@ -11,10 +11,13 @@
   "environment": "*",
   "entrypoints": {
     "cardinal-components-entity": [
-      "me.mangorage.tiabremastered.fabric.core.TiabProvider"
+      "me.mangorage.tiabremastered.fabric.common.core.TiabProvider"
     ],
     "main": [
       "me.mangorage.tiabremastered.fabric.TIABFabric"
+    ],
+    "client": [
+      "me.mangorage.tiabremastered.fabric.client.TIABFabricClient"
     ]
   },
   "custom": {

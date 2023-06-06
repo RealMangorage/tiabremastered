@@ -1,6 +1,6 @@
 package me.mangorage.tiabremastered.common.core.tiab;
 
-import me.mangorage.tiabremastered.common.core.registries.ModItems;
+import me.mangorage.tiabremastered.common.core.registries.TiabRegistries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.entity.player.Player;
 
@@ -45,7 +45,7 @@ public class BasicTiab implements ITIAB {
 
     @Override
     public void tick(Player player) {
-        if (player.getInventory().countItem(ModItems.TIME_IN_A_BOTTLE_ITEM.get()) > 0)
+        if (player.getInventory().countItem(TiabRegistries.TIME_IN_A_BOTTLE_ITEM.get()) > 0)
             addTime(1);
     }
 

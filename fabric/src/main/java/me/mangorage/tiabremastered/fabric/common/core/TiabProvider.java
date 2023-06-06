@@ -1,4 +1,4 @@
-package me.mangorage.tiabremastered.fabric.core;
+package me.mangorage.tiabremastered.fabric.common.core;
 
 import dev.onyxstudios.cca.api.v3.component.ComponentKey;
 import dev.onyxstudios.cca.api.v3.component.ComponentRegistry;

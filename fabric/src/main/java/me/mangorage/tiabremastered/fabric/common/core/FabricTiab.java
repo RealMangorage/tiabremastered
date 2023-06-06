@@ -1,4 +1,4 @@
-package me.mangorage.tiabremastered.fabric.core;
+package me.mangorage.tiabremastered.fabric.common.core;
 
 import dev.onyxstudios.cca.api.v3.entity.PlayerComponent;
 import me.mangorage.tiabremastered.common.core.tiab.BasicTiab;

@@ -1,4 +1,4 @@
-package me.mangorage.tiabremastered.common.core.tiab;
+package me.mangorage.tiabremastered.common.commands;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.BoolArgumentType;

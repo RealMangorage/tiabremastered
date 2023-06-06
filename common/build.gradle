@@ -5,7 +5,11 @@ dependencies {
 }
 
 architectury {
-    common("fabric", "forge")
+    common()
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/tiabremastered.accesswidener")
 }
 
 publishing {

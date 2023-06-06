@@ -1,4 +1,4 @@
-package me.mangorage.tiabremastered.forge.core;
+package me.mangorage.tiabremastered.forge.common.core;
 
 import me.mangorage.tiabremastered.common.core.tiab.BasicTiab;
 import me.mangorage.tiabremastered.common.core.tiab.ITIAB;

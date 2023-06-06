@@ -3,14 +3,20 @@ package me.mangorage.tiabremastered.common.items;
 import me.mangorage.tiabremastered.TIAB;
 import me.mangorage.tiabremastered.common.core.Util;
 import me.mangorage.tiabremastered.common.core.tiab.ITIAB;
+import me.mangorage.tiabremastered.common.entities.AccelerationEntity;
+import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.AABB;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -22,8 +28,39 @@ public class TimeInABottleItem extends Item {
     }
 
     @Override
-    public void verifyTagAfterLoad(CompoundTag compoundTag) {
-        super.verifyTagAfterLoad(compoundTag);
+    public boolean canBeDepleted() {
+        return false;
+    }
+
+    @Override
+    public InteractionResult useOn(UseOnContext useOnContext) {
+        Level level = useOnContext.getLevel();
+        if (level.isClientSide) return InteractionResult.PASS;
+        BlockPos pos = useOnContext.getClickedPos();
+
+        if (!Util.doesBlockTick(level, pos)) return InteractionResult.FAIL;
+        Player player = useOnContext.getPlayer();
+        Optional<ITIAB> itiabOptional = TIAB.getInstance().getTIAB(player);
+        if (itiabOptional.isEmpty()) return InteractionResult.FAIL;
+        ITIAB itiab = itiabOptional.get();
+
+        Optional<AccelerationEntity> AEO =
+                level.getEntitiesOfClass(AccelerationEntity.class, new AABB(pos))
+                        .stream()
+                        .filter(AE -> {
+                            return AE.getAcceleratedBlockPos().equals(pos);
+                        }).findAny();
+        AEO.ifPresentOrElse(entity -> {
+            if ((entity.getTimeRate() * 2) > 256) return;
+            Util.setTicksForEntity(player, entity, entity.getTimeRate() * 2, itiab);
+        }, () -> {
+            if (itiab.getTimeLeft() < Util.getTicksForRate(100, 2)) return;
+            AccelerationEntity entity = new AccelerationEntity(level, pos);
+            level.addFreshEntity(entity);
+            Util.setTicksForEntity(player, entity, 2, itiab);
+        });
+
+        return super.useOn(useOnContext);
     }
 
     @Override
@@ -35,8 +72,6 @@ public class TimeInABottleItem extends Item {
             });
         }
     }
-
-
 
     @Override
     public void appendHoverText(ItemStack itemStack, @Nullable Level level, List<Component> list, TooltipFlag tooltipFlag) {
