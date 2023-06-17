@@ -10,6 +10,9 @@
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "me.mangorage.tiabremastered.fabric.datagen.FabricDatagen"
+    ],
     "cardinal-components-entity": [
       "me.mangorage.tiabremastered.fabric.common.core.TiabProvider"
     ],

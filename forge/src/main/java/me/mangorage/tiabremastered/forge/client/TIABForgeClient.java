@@ -1,5 +1,6 @@
 package me.mangorage.tiabremastered.forge.client;
 
+import com.mojang.blaze3d.platform.InputConstants;
 import me.mangorage.tiabremastered.client.ClientTIAB;
 import me.mangorage.tiabremastered.client.renderer.entity.AccelerationEntityRenderer;
 import me.mangorage.tiabremastered.common.core.Constants;
@@ -28,8 +29,10 @@ public class TIABForgeClient {
 
     @SubscribeEvent
     public static void keyRegistration(RegisterKeyMappingsEvent event) {
-        ClientTIAB.USE_TIAB_KEY.create((key, category, keycode, type) -> {
-            return new KeyMapping(key, KeyConflictContext.IN_GAME, type, keycode, category);
-        });
+        event.register(
+                ClientTIAB.USE_TIAB_KEY.createAndGet((key, type,keyCode, category) -> {
+                    return new KeyMapping(key, KeyConflictContext.IN_GAME, type, keyCode, category);
+                })
+        );
     }
 }

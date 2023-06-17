@@ -12,6 +12,13 @@ loom {
     accessWidenerPath = file("src/main/resources/tiabremastered.accesswidener")
 }
 
+sourceSets {
+    datagen {
+        compileClasspath += main.compileClasspath
+        runtimeClasspath += main.runtimeClasspath
+    }
+}
+
 publishing {
     publications {
         mavenCommon(MavenPublication) {

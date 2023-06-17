@@ -1,8 +1,8 @@
 package me.mangorage.tiabremastered.common.core.registries;
 
 import net.minecraft.resources.ResourceLocation;
+import org.jetbrains.annotations.Nullable;
 
-import javax.annotation.Nullable;
 import java.util.function.Supplier;
 
 public class LazyReferenceObject<T> implements Supplier<T> {
@@ -27,7 +27,7 @@ public class LazyReferenceObject<T> implements Supplier<T> {
         return this.value;
     }
 
-    protected boolean hasDefault() {
+    public boolean hasDefault() {
         return objectSupplier == null ? false : true;
     }
 

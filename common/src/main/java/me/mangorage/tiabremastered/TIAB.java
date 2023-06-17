@@ -6,6 +6,12 @@ import net.minecraft.world.entity.player.Player;
 import java.util.Optional;
 import java.util.function.Function;
 
+
+/*
+TODO:
+    Make sure Both fabric/forge have registries finished!
+ */
+
 public class TIAB {
     private static TIAB INSTANCE;
 

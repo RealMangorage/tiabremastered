@@ -11,8 +11,13 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public class TiabProvider implements ICapabilitySerializable<CompoundTag> {
-    private final BasicTiab CAP = new BasicTiab();
-    private final LazyOptional<ITIAB> lazy = LazyOptional.of(() -> CAP);
+    private final ITIAB CAP;
+    private final LazyOptional<ITIAB> lazy;
+
+    public TiabProvider(ITIAB cap) {
+        this.CAP = cap;
+        this.lazy = LazyOptional.of(() -> this.CAP);
+    }
 
     @Override
     public @NotNull <T> LazyOptional<T> getCapability(@NotNull Capability<T> capability, @Nullable Direction arg) {
@@ -21,7 +26,6 @@ public class TiabProvider implements ICapabilitySerializable<CompoundTag> {
 
         return LazyOptional.empty();
     }
-
 
     @Override
     public CompoundTag serializeNBT() {

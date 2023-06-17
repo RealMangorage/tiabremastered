@@ -1,6 +1,7 @@
 plugins {
     id "com.github.johnrengelman.shadow" version "7.1.2"
 }
+
 architectury {
     platformSetupLoomIde()
     forge()
@@ -14,11 +15,41 @@ configurations {
     developmentForge.extendsFrom common
 }
 
+sourceSets {
+    datagen {
+        compileClasspath += main.compileClasspath
+        runtimeClasspath += main.runtimeClasspath
+    }
+
+    main {
+        resources {
+            srcDirs += [
+                    'src/main/generated'
+            ]
+        }
+
+        runtimeClasspath += datagen.runtimeClasspath
+    }
+}
+
+
 dependencies {
+    datagenImplementation sourceSets.main.output
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
+}
+
+loom {
+    runs {
+        data {
+            //source = sourceSets.main
+            data()
+            programArgs "--all", "--mod", "${mod_id}"
+            programArgs "--output",  file("src/generated").absolutePath
+        }
+    }
 }
 
 processResources {

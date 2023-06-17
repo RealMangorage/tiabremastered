@@ -22,6 +22,38 @@ repositories {
     }
 }
 
+loom {
+    runs {
+        Data {
+            inherit client
+            name "Data Generation"
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+            vmArg "-Dfabric-api.datagen.modid=${mod_id}"
+
+            runDir "build/datagen"
+        }
+    }
+}
+
+sourceSets {
+
+    datagen {
+        compileClasspath += main.compileClasspath
+        runtimeClasspath += main.runtimeClasspath
+    }
+
+    main {
+        resources {
+            srcDirs += [
+                    'src/main/generated'
+            ]
+        }
+        runtimeClasspath += datagen.runtimeClasspath
+    }
+}
+
+
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"

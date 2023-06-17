@@ -1,5 +1,6 @@
 package me.mangorage.tiabremastered.common.blocks;
 
+import me.mangorage.tiabremastered.common.blockentities.TimeCollectorMachineBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.RenderShape;
@@ -15,7 +16,7 @@ public class TimeCollectorMachineBlock extends BaseEntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-        return null;
+        return new TimeCollectorMachineBlockEntity(blockPos, blockState);
     }
 
     public RenderShape getRenderShape(BlockState blockState) {

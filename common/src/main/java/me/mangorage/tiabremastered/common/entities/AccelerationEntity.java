@@ -15,7 +15,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.Level;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.core.Logger;
 
 public class AccelerationEntity extends Entity {
     private static final EntityDataAccessor<Integer> timeRate = SynchedEntityData.defineId(AccelerationEntity.class, EntityDataSerializers.INT);
@@ -57,7 +56,8 @@ public class AccelerationEntity extends Entity {
 
     @Override
     public void kill() {
-        LogManager.getLogger().info("Killed Acceleration Entity : Ticks alive-> " + ticksAlive + " Accelerated: " + ticksAccelerated);
+        // Dev Debug for now
+        // LogManager.getLogger().info("Killed Acceleration Entity : Ticks alive-> " + ticksAlive + " Accelerated: " + ticksAccelerated);
         super.kill();
     }
 

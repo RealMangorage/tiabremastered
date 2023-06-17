@@ -60,7 +60,7 @@ public class Util {
         Level level = e.getLevel();
         int ticksNeeded = Util.getTicksForRate(100, rate);
 
-        if (itiab.getTimeLeft() >= ticksNeeded) {
+        if (itiab.getTimeLeft() >= ticksNeeded || player.getAbilities().instabuild) {
             if (!player.getAbilities().instabuild)
                 itiab.setTimeLeft(itiab.getTimeLeft() - ticksNeeded);
 

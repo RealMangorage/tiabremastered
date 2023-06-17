@@ -1,31 +1,27 @@
 package me.mangorage.tiabremastered.common.core.registries;
 
 import net.minecraft.core.Registry;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import org.jetbrains.annotations.Nullable;
 
-import javax.annotation.Nullable;
 import java.util.HashMap;
 import java.util.function.Supplier;
 
 public class LazyReferenceRegistry<X> {
-    public static <X> LazyReferenceRegistry<X> create(String modID, ResourceKey<Registry<X>> key) {
-        return new LazyReferenceRegistry<>(modID, key);
+    public static <X> LazyReferenceRegistry<X> create(String modID, Registry<X> registry) {
+        return new LazyReferenceRegistry<>(modID, registry);
     }
 
     private final String MOD_ID;
-    private final ResourceKey<Registry<X>> RESOURCE_KEY;
+    private final Registry<X> REGISTRY;
     private final HashMap<String, LazyReferenceObject<? extends X>> REGISTRY_OBJECTS = new HashMap<>();
-    private LazyReferenceRegistry(String modID, ResourceKey<Registry<X>> resourceKey) {
+    private LazyReferenceRegistry(String modID, Registry<X> registry) {
         this.MOD_ID = modID;
-        this.RESOURCE_KEY = resourceKey;
+        this.REGISTRY = registry;
     }
 
-    public <T extends X> T initiate(String ID) {
-        if (REGISTRY_OBJECTS.containsKey(ID))
-            return initiate((LazyReferenceObject<T>) REGISTRY_OBJECTS.get(ID));
-
-        throw new IllegalStateException("Registry Object: " + new ResourceLocation(MOD_ID, ID) + " does not exist!");
+    public Registry<X> getRegistry() {
+        return REGISTRY;
     }
 
     public <T extends X> T initiate(LazyReferenceObject<T> object) {
@@ -34,13 +30,6 @@ public class LazyReferenceRegistry<X> {
         if (!object.hasDefault())
             throw new IllegalStateException("Must provide a Supplier for this registryObject! It doesnt contain any default supplier!");
         return object.initiate();
-    }
-
-    public <T extends X, Y extends T> Y initiate(String ID, Supplier<Y> overrideSupplier) {
-        if (REGISTRY_OBJECTS.containsKey(ID))
-            return initiate((LazyReferenceObject<T>) REGISTRY_OBJECTS.get(ID), overrideSupplier);
-
-        throw new IllegalStateException("Registry Object: " + new ResourceLocation(MOD_ID, ID) + " does not exist!");
     }
 
     public <T extends X, Y extends T> Y initiate(LazyReferenceObject<T> object, Supplier<Y> overrideSupplier) {
@@ -52,16 +41,16 @@ public class LazyReferenceRegistry<X> {
         return object.initiate(overrideSupplier);
     }
 
-    public <T extends X> LazyReferenceObject<T> prepareRegister(String ID, @Nullable Supplier<T> supplier, boolean canBeOverriden) {
+    protected <T extends X> LazyReferenceObject<T> prepareRegister(String ID, @Nullable Supplier<T> supplier, boolean canBeOverriden) {
         if (REGISTRY_OBJECTS.containsKey(ID))
-            throw new IllegalStateException("Already registered an Object with the ID: " + ID + " using registry: " + RESOURCE_KEY.registry());
+            throw new IllegalStateException("Already registered an Object with the ID: " + ID + " using registry: " + REGISTRY.key().registry());
         LazyReferenceObject<T> lazyReferenceObject = new LazyReferenceObject<>(new ResourceLocation(MOD_ID, ID), supplier);
         lazyReferenceObject.setCanOverride(canBeOverriden);
         REGISTRY_OBJECTS.put(ID, lazyReferenceObject);
         return lazyReferenceObject;
     }
 
-    public <T extends X> LazyReferenceObject<T> prepareRegister(String ID, @Nullable Supplier<T> supplier) {
+    protected <T extends X> LazyReferenceObject<T> prepareRegister(String ID, @Nullable Supplier<T> supplier) {
         return prepareRegister(ID, supplier, true);
     }
 }
