@@ -27,8 +27,6 @@ sourceSets {
                     'src/main/generated'
             ]
         }
-
-        runtimeClasspath += datagen.runtimeClasspath
     }
 }
 
@@ -44,7 +42,8 @@ dependencies {
 loom {
     runs {
         data {
-            //source = sourceSets.main
+            source = sourceSets.main
+            source = sourceSets.datagen
             data()
             programArgs "--all", "--mod", "${mod_id}"
             programArgs "--output",  file("src/generated").absolutePath

@@ -6,6 +6,9 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.models.BlockModelGenerators;
 import net.minecraft.data.models.ItemModelGenerators;
 import net.minecraft.data.models.model.ModelTemplates;
+import net.minecraft.world.item.Item;
+
+import java.util.Locale;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataGenerator dataGenerator) {
