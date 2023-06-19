@@ -6,8 +6,16 @@ import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
+import java.util.logging.Logger;
+
 @Mod.EventBusSubscriber(modid = Constants.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ForgeDatagen {
+
+    static {
+        boolean loaded = true;
+
+        Logger.getLogger(Constants.MODID).info("WOOOP!");
+    }
     @SubscribeEvent
     public static void registerDataGen(GatherDataEvent event) {
 
