@@ -32,7 +32,7 @@ sourceSets {
 
 
 dependencies {
-    datagenImplementation(sourceSets.datagen.output)
+    datagenImplementation(sourceSets.main.output)
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
@@ -42,7 +42,7 @@ dependencies {
 loom {
     runs {
         data {
-            //source = sourceSets.datagen
+            source = sourceSets.datagen
             data()
             programArgs "--all", "--mod", "${mod_id}"
             programArgs "--output", file("src/generated").absolutePath
